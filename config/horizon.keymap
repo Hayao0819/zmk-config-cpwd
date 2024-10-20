@@ -1,22 +1,22 @@
-~/*
-~ * Copyright (c) 2021 The ZMK Contributors
-~ *
-~ * SPDX-License-Identifier: MIT
-~ */
-~
-~#include <behaviors.dtsi>
-~#include <dt-bindings/zmk/keys.h>
-~
-~#define DEF 0
-~#define SYM 1
-~#define FUN 2
-~
-~&lt {
-~    tapping-term-ms = <180>;
-~    flavor = "tap-preferred";
-~};
-~
-~/ {
+/*
+ * Copyright (c) 2021 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#define DEF 0
+#define SYM 1
+#define FUN 2
+
+&lt {
+    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
 
@@ -41,8 +41,8 @@
         };
     };
 
-~    keymap {
-~        compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
@@ -71,3 +71,4 @@
             >;
         };
     };
+};
