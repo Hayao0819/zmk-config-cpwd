@@ -47,19 +47,19 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE    &kp Q     &kp W     &kp E   &kp R   &kp T                                    &kp Y          &kp U   &kp I   &kp O      &kp P                  &kp MINUS
-&kp LCTRL     &kp A     &kp S     &kp D   &kp F   &kp G                                    &kp H          &kp J   &kp K   &kp L      &mt RIGHT_SHIFT ENTER  &kp RIGHT_ALT
-&kp LEFT_ALT  &kp Z     &kp X     &kp C   &kp V   &kp B        &trans       &trans         &kp B          &kp N   &kp M   &kp COMMA  &kp PERIOD             &kp SLASH
-&kp LCTRL     &kp LGUI  &kp LALT  &trans  &trans  &lt 2 ENTER  &lt 1 SPACE  &mt RSHFT TAB  &kp BACKSPACE  &trans  &trans  &kp RALT   &kp RGUI               &kp RCTRL
+&kp ESCAPE        &kp Q     &kp W     &kp E   &kp R   &kp T                                    &kp Y          &kp U   &kp I   &kp O      &kp P                  &kp MINUS
+&kp LEFT_COMMAND  &kp A     &kp S     &kp D   &kp F   &kp G                                    &kp H          &kp J   &kp K   &kp L      &mt RIGHT_SHIFT ENTER  &kp RIGHT_ALT
+&none             &kp Z     &kp X     &kp C   &kp V   &kp B        &trans       &trans         &kp B          &kp N   &kp M   &kp COMMA  &kp PERIOD             &kp SLASH
+&kp LCTRL         &kp LGUI  &kp LALT  &trans  &trans  &lt 2 ENTER  &lt 1 SPACE  &mt RSHFT TAB  &kp BACKSPACE  &trans  &trans  &kp RALT   &kp RGUI               &kp RCTRL
             >;
         };
 
         function_layer {
             bindings = <
-&trans     &trans  &kp F9  &kp F10  &kp F11  &kp F12                     &kp HOME            &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &trans         &kp DEL
-&kp LCTRL  &trans  &kp F5  &kp F6   &kp F7   &kp F8                      &kp LEFT            &kp DOWN       &kp UP_ARROW      &kp RIGHT      &kp RS(SPACE)  &kp RIGHT_ALT
-&trans     &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans     &kp RC(LEFT_ARROW)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &trans         &trans
-&trans     &trans  &trans  &trans   &trans   &trans   &trans  &kp RSHFT  &trans              &trans         &trans            &trans         &trans         &trans
+&trans            &trans  &kp F9  &kp F10  &kp F11  &kp F12                     &kp HOME            &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &trans     &kp DEL
+&kp LEFT_COMMAND  &trans  &kp F5  &kp F6   &kp F7   &kp F8                      &kp LEFT            &kp DOWN       &kp UP_ARROW      &kp RIGHT      &kp GLOBE  &kp RIGHT_ALT
+&trans            &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans     &kp RC(LEFT_ARROW)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &trans     &trans
+&trans            &trans  &trans  &trans   &trans   &trans   &trans  &kp RSHFT  &trans              &trans         &trans            &trans         &trans     &trans
             >;
         };
 
