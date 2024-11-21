@@ -27,18 +27,8 @@
         };
 
         comboGUI {
-            bindings = <&kp LEFT_WIN>;
+            bindings = <&kp LCTRL>;
             key-positions = <15 16>;
-        };
-
-        comboSKCtrl {
-            bindings = <&sk LCTRL>;
-            key-positions = <14 15>;
-        };
-
-        comboSKAlt {
-            bindings = <&sk RALT>;
-            key-positions = <20 21>;
         };
     };
 
